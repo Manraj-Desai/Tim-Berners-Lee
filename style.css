@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    border-radius: 50%;
+    margin-bottom: 50px;
+    width: 175px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(#1fedb3 0%, #edde13 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: fantasy;
+}
+
+#name {
+    font-size: 30px;
+    font-family: 'Yeon Sung', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: fantasy;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 18px;
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right:30px;
+    cursor:pointer;
+    font-family: 'Do Hyeon', sans-serif;
+    z-index:9222222222223827489;
+}
+.links {
+    color: azure;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 16px;
+}
+.links:hover{
+    background-color:forestgreen;
+}
